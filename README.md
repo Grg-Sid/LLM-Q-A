@@ -1,5 +1,11 @@
 # ProtonDatalabs AI developer Assignment - Chatbot application
 
+## Video
+
+
+https://github.com/Grg-Sid/LLM-Q-A/assets/106266279/f10b45f0-57af-4c6b-9230-abd376893a7f
+
+
 ## Preface
 
 At ProtonDatalabs, we leverage cutting-age gen-AI solutions to deliver buisness value to our clients. We are able to do this by combining aspects from AI modelling to full-stack developement.
@@ -11,17 +17,26 @@ In this assignment, your task is to build a chatbot application which takes a fi
 In this project you find 2 directories
 
 1. `backend` containing the server side **python** code
-2. `frontend` containing the client side **typescript** code.\
-   In both these directories, it is your job to complete the missing modules and add necessary functionalities to make the app fully functional.
+
+   a. `backend` directory structure (add db dir)
+
+   ![WhatsApp Image 2024-03-22 at 15 27 42_c0f0fc0d](https://github.com/Grg-Sid/LLM-Q-A/assets/106266279/cabad8f1-ea5e-4845-88ad-86f6027c22a5)
+
+   To Download LLM
+   ```
+   git lfs install
+   git clone https://huggingface.co/MBZUAI/LaMini-T5-738M
+   ```
+
+3. `frontend` containing the client side **typescript** code.\
 
 ### Backend
 
 **Requirements**: Python 3.10 or above. We will test your submission against Python 3.10.
 
 1. `main.py` which is the entry point to our server
-2. This project has a few Python packages as dependencies, you can install them in your virtual environment using `requirements.txt`. If you were to use other dependencies, then please add them to `requirements.txt`.
-3. We will be using [`conda`](https://docs.conda.io/projects/conda/en/stable/) package manager to create a virtual environment `chatbot` using `conda create -n chatbot python=3.10` and then `conda activate chatbot` to activate the environment.
-4. Then install the python packages using `pip install -r requirements.txt`
+2. We will be using [`conda`](https://docs.conda.io/projects/conda/en/stable/) package manager to create a virtual environment `chatbot` using `conda create -n chatbot python=3.10` and then `conda activate chatbot` to activate the environment.
+3. Then install the python packages using `pip install -r requirements.txt`
 
 #### Running the backend server
 
